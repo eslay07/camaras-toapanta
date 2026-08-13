@@ -1,0 +1,7 @@
+pyaarlo==0.8.0.22
+curl_cffi==0.15.0
+opencv-python-headless==4.13.0.92
+Pillow==12.3.0
+keyring==25.7.0
+sounddevice==0.5.5
+imageio-ffmpeg==0.6.0

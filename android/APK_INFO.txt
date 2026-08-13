@@ -1,0 +1,54 @@
+CÁMARAS TOAPANTA ANDROID INDEPENDIENTE
+Hecho por Jimmy Toapanta
+
+Archivo: Camaras_Toapanta_Android_Independiente_v1.3.3.apk
+Versión: 1.3.3
+Paquete: com.jimmytoapanta.camaras
+Android mínimo: 6.0 (API 23)
+Android objetivo: API 35
+Tamaño: 57.821 bytes
+Arquitecturas: todas (no contiene bibliotecas nativas)
+Firma: APK Signature Scheme v1, v2 y v3
+SHA-256:
+250E74B35738F6D209468BC5B8071A88FA4D5E470D4FDE2B0DB974685E391E4F
+
+Arquitectura verificada:
+- no requiere PC, puente HTTP ni código del visor de Windows;
+- inicio de sesión Arlo directo con verificación EMAIL/SMS;
+- sesión, contraseña y cookies cifradas con Android Keystore;
+- detección directa de las dos cámaras Arlo;
+- generación y renovación directa de RTSPS;
+- recuperación de URL activa cuando una Arlo está ocupada por otra sesión;
+- RTSP y audio directos para la cámara genérica;
+- migración de la URL genérica antigua a /live/ch00_1;
+- resolución H.265 genérica corregida a 640 × 720;
+- stream principal genérico reconocido como 2304 × 2592;
+- PTZ ONVIF directo para la cámara genérica;
+- privacidad directa de las dos Arlo;
+- sesión y cookies persistentes por dispositivo;
+- reutilización del stream activo para evitar expulsar otros usuarios;
+- URL nueva propia solicitada antes de aceptar un stream activo posiblemente vencido;
+- respuesta temporal Unknown manejada sin convertir String a JSONObject;
+- solicitudes Arlo serializadas para evitar dos startStream simultáneos;
+- recuperación iniciar/consultar/reintentar antes de mostrar un error;
+- cierre local sin enviar activityState=idle;
+- pantalla completa global para conservar la vista elegida de 1, 2 o 3 cámaras;
+- pantalla completa individual desde el botón de cada cámara;
+- barras del sistema y controles ocultos en el modo inmersivo;
+- TextureView para mostrar correctamente el video dentro de la interfaz;
+- fondo de TextureView retirado para evitar el cierre al iniciar;
+- cuadros completos H.264/H.265 antes de enviarlos a MediaCodec;
+- estado EN VIVO solamente después del primer cuadro renderizado;
+- diseño vertical/horizontal y desplazamiento para pantallas pequeñas;
+- no incluye Python, OpenCV, FFmpeg, VLC ni archivos nativos.
+
+Verificaciones de compilación:
+- recursos y manifiesto Android válidos;
+- código convertido correctamente a DEX;
+- versionCode 9 y versionName 1.3.3;
+- firma de Jimmy Toapanta verificada;
+- APK compatible desde Android 6.0.
+
+No había un teléfono conectado por USB durante la compilación. La instalación,
+el código de verificación y la reproducción deben confirmarse en el teléfono
+Android de destino.

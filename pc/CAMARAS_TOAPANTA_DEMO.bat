@@ -1,0 +1,10 @@
+@echo off
+setlocal
+cd /d "%~dp0"
+title Camaras Toapanta - Demostracion
+
+call "VERIFICAR_ENTORNO.bat"
+if errorlevel 1 exit /b 1
+
+start "" ".venv\Scripts\pythonw.exe" "seguridad_casa.py" --demo
+exit /b 0
