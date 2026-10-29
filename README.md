@@ -1,5 +1,15 @@
 # Cámaras Toapanta
 
+## Lectura rápida para evaluar el proyecto
+
+Proyecto personal para reunir cámaras de distintos proveedores en clientes de escritorio y Android.
+
+**Tecnologías:** Python · Java Android · RTSP · ONVIF · integración multimedia
+**Estado:** Compatibilidad dependiente de las cámaras, firmware, red y servicios del proveedor. Las versiones se describen en el README; no se conectó a cámaras reales en esta revisión.
+
+[Ver el problema, la evidencia de implementación y las limitaciones](PORTFOLIO.md) · [Portafolio del autor](https://github.com/eslay07)
+
+
 Cámaras Toapanta es un visor de seguridad doméstica que nació de una necesidad bastante concreta: reunir cámaras de tecnologías distintas en una sola interfaz y poder usarlas sin depender de varias aplicaciones abiertas al mismo tiempo.
 
 El proyecto mantiene dos clientes:
