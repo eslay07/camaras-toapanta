@@ -1,5 +1,8 @@
 # Cámaras Toapanta
 
+[Guía visual actual con capturas (PDF)](docs/portafolio/Guia_Visual_Actual.pdf) · [Procedencia y alcance de las muestras](docs/portafolio/README.md)
+
+
 ## Lectura rápida para evaluar el proyecto
 
 Proyecto personal para reunir cámaras de distintos proveedores en clientes de escritorio y Android.
